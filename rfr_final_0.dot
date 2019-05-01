@@ -1,0 +1,28 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="BMI <= 26.85\nmse = 6815.251\nsamples = 199\nvalue = 153.314", fillcolor="#e5813962"] ;
+1 [label="LTG <= 4.714\nmse = 3329.935\nsamples = 117\nvalue = 111.979", fillcolor="#e581392b"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="HDL <= 55.5\nmse = 2490.371\nsamples = 85\nvalue = 96.265", fillcolor="#e5813917"] ;
+1 -> 2 ;
+3 [label="mse = 3182.322\nsamples = 46\nvalue = 110.595", fillcolor="#e581392a"] ;
+2 -> 3 ;
+4 [label="mse = 1126.877\nsamples = 39\nvalue = 79.161", fillcolor="#e5813900"] ;
+2 -> 4 ;
+5 [label="BMI <= 24.25\nmse = 3154.378\nsamples = 32\nvalue = 153.882", fillcolor="#e5813963"] ;
+1 -> 5 ;
+6 [label="mse = 1827.46\nsamples = 16\nvalue = 132.148", fillcolor="#e5813946"] ;
+5 -> 6 ;
+7 [label="mse = 3517.889\nsamples = 16\nvalue = 178.333", fillcolor="#e5813983"] ;
+5 -> 7 ;
+8 [label="LTG <= 4.413\nmse = 5524.302\nsamples = 82\nvalue = 216.672", fillcolor="#e58139b6"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="mse = 4089.089\nsamples = 17\nvalue = 146.852", fillcolor="#e5813959"] ;
+8 -> 9 ;
+10 [label="HDL <= 38.5\nmse = 4152.944\nsamples = 65\nvalue = 236.516", fillcolor="#e58139d0"] ;
+8 -> 10 ;
+11 [label="mse = 2546.216\nsamples = 17\nvalue = 272.043", fillcolor="#e58139ff"] ;
+10 -> 11 ;
+12 [label="mse = 4134.194\nsamples = 48\nvalue = 225.167", fillcolor="#e58139c1"] ;
+10 -> 12 ;
+}
