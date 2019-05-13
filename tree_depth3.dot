@@ -13,7 +13,7 @@ node [shape=box, style="filled", color="black"] ;
 3 -> 5 ;
 6 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]\nclass = Benign", fillcolor="#399de5ff"] ;
 2 -> 6 ;
-7 [label="texture error <= 0.684\ngini = 0.444\nsamples = 3\nvalue = [1, 2]\nclass = Benign", fillcolor="#399de57f"] ;
+7 [label="perimeter error <= 1.638\ngini = 0.444\nsamples = 3\nvalue = [1, 2]\nclass = Benign", fillcolor="#399de57f"] ;
 1 -> 7 ;
 8 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]\nclass = Malignant", fillcolor="#e58139ff"] ;
 7 -> 8 ;
